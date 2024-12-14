@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     {
         char messages[100];
         printf("Message: ");
-        scanf("%[^\n]", &messages);
+        scanf("%[^\n]", messages);
 
         Write(filename, messages);
         getchar(); // buffer cleaner
